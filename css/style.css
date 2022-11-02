@@ -1,0 +1,26 @@
+.main-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav {
+    list-style: none;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.main-nav li a:hover,
+.active {
+    background-color: blue;
+    color: white;
+}
